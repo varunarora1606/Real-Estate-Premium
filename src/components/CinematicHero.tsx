@@ -16,7 +16,7 @@ const CinematicHero = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 lg:px-12 lg:my-16 text-center">
+      <div className="relative z-10 container mx-auto px-6 sm:mt-0 mt-8 lg:px-12 lg:my-16 text-center">
         <div className="max-w-4xl mx-auto space-y-8">
           {/* Decorative Line */}
           <div className="flex items-center justify-center gap-4">

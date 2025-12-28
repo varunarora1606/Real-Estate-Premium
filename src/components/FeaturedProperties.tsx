@@ -1,9 +1,11 @@
 import PropertyCard from "./PropertyCard";
+import { Button } from "./ui/button";
 
 const FeaturedProperties = () => {
   const properties = [
     {
-      image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
       title: "4 BHK Penthouse",
       location: "Greater Kailash, South Delhi",
       price: "₹4.5 Cr",
@@ -14,7 +16,8 @@ const FeaturedProperties = () => {
       tags: ["Private Lift", "Terrace Pool", "Smart Home"],
     },
     {
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
       title: "5 BHK Villa",
       location: "DLF Phase 5, Gurgaon",
       price: "₹8.2 Cr",
@@ -25,7 +28,8 @@ const FeaturedProperties = () => {
       tags: ["Private Garden", "Home Theater", "Wine Cellar"],
     },
     {
-      image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
       title: "3 BHK Apartment",
       location: "Sector 128, Noida",
       price: "₹85,000/mo",
@@ -36,7 +40,8 @@ const FeaturedProperties = () => {
       tags: ["Golf View", "Furnished", "Valet Parking"],
     },
     {
-      image: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&q=80",
       title: "4 BHK Penthouse",
       location: "Greater Kailash, South Delhi",
       price: "₹4.5 Cr",
@@ -47,7 +52,8 @@ const FeaturedProperties = () => {
       tags: ["Private Lift", "Terrace Pool", "Smart Home"],
     },
     {
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80",
       title: "5 BHK Villa",
       location: "DLF Phase 5, Gurgaon",
       price: "₹8.2 Cr",
@@ -58,7 +64,8 @@ const FeaturedProperties = () => {
       tags: ["Private Garden", "Home Theater", "Wine Cellar"],
     },
     {
-      image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
+      image:
+        "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80",
       title: "3 BHK Apartment",
       location: "Sector 128, Noida",
       price: "₹85,000/mo",
@@ -86,7 +93,8 @@ const FeaturedProperties = () => {
             Featured Properties
           </h2>
           <p className="text-ivory-muted font-sans max-w-2xl mx-auto text-lg">
-            Handpicked residences that define luxury living in India's most prestigious locations
+            Handpicked residences that define luxury living in India's most
+            prestigious locations
           </p>
         </div>
 
@@ -105,7 +113,14 @@ const FeaturedProperties = () => {
 
         {/* View All Button */}
         <div className="text-center mt-16">
-          <button className="group inline-flex items-center gap-3 font-sans text-gold border-b-2 border-gold pb-2 hover:border-gold-light hover:text-gold-light transition-colors duration-300">
+          <Button
+            size="lg"
+            className="bg-gold text-primary-foreground hover:bg-gold-light px-10 py-6 text-base font-sans tracking-wide shadow-gold transition-all duration-300 hover:shadow-lg"
+          >
+            Book a Confidential Consultation
+          </Button>
+
+          {/* <button className="group inline-flex items-center gap-3 font-sans text-gold border-b-2 border-gold pb-2 hover:border-gold-light hover:text-gold-light transition-colors duration-300">
             <span className="tracking-wide">View All Properties</span>
             <svg
               className="w-5 h-5 transform group-hover:translate-x-1 transition-transform duration-300"
@@ -115,7 +130,7 @@ const FeaturedProperties = () => {
             >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

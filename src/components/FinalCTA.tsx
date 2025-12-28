@@ -49,7 +49,7 @@ const FinalCTA = () => {
             </a>
             <span className="text-gold">|</span>
             <a href="mailto:concierge@aureliaestates.com" className="hover:text-gold transition-colors duration-300">
-              concierge@aureliaestates.com
+              concierge@sheltownestates.com
             </a>
           </div>
         </div>

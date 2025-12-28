@@ -115,7 +115,7 @@ const FeaturedProperties = () => {
         <div className="text-center mt-16">
           <Button
             size="lg"
-            className="bg-gold text-primary-foreground hover:bg-gold-light px-10 py-6 text-base font-sans tracking-wide shadow-gold transition-all duration-300 hover:shadow-lg"
+            className="bg-gold text-primary-foreground hover:bg-gold-light px-6 py-6 text-base font-sans tracking-wide shadow-gold transition-all duration-300 hover:shadow-lg"
           >
             Book a Confidential Consultation
           </Button>

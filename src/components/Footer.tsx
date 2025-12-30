@@ -36,7 +36,7 @@ const Footer = () => {
               </div>
               <div>
                 <h3 className="font-serif text-xl text-foreground">
-                  Sheltown <span className="text-gold">Estates</span>
+                  Shelter <span className="text-gold">Estates</span>
                 </h3>
               </div>
             </div>
@@ -95,9 +95,9 @@ const Footer = () => {
             <h4 className="font-serif text-lg text-foreground mb-6">Contact</h4>
             <div className="space-y-4 font-sans text-sm text-ivory-muted">
               <p>
-                Tower A, 15th Floor<br />
-                DLF Cyber City<br />
-                Gurgaon, Haryana 122002
+                Tower Z, 15th Floor<br />
+                XYZ City<br />
+                Gurgaon, Haryana
               </p>
               <p>
                 <a href="tel:+911234567890" className="hover:text-gold transition-colors duration-300">
@@ -106,7 +106,7 @@ const Footer = () => {
               </p>
               <p>
                 <a href="mailto:concierge@sheltownestates.com" className="hover:text-gold transition-colors duration-300">
-                  concierge@sheltownestates.com
+                  property@shelterestates.com
                 </a>
               </p>
             </div>
@@ -118,7 +118,7 @@ const Footer = () => {
       <div className="border-t border-border">
         <div className="container mx-auto px-6 lg:px-12 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-sans text-ivory-muted">
-            <p>© 2024 Sheltown Estates. All rights reserved.</p>
+            <p>© 2024 Shelter Estates. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-gold transition-colors duration-300">
                 Privacy Policy

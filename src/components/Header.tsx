@@ -39,7 +39,7 @@ const Header = () => {
             </div>
             <div className="hidden sm:block">
               <h1 className="font-serif text-xl lg:text-2xl text-foreground tracking-wide">
-                Sheltown <span className="text-gold">Estates</span>
+                Shelter <span className="text-gold">Estates</span>
               </h1>
             </div>
           </a>
